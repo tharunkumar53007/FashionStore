@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+p{
+  margin-top: 15px;
+}
+.title{
+  padding: 13px 0px;
+  background-color:mediumslateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+.title p{
+  padding-top: 5px;
+}
+table{
+  width: 100%;
+}
+.item-div{
+  width: 100%;
+  padding: 15px 4px ;
+}
+.item-div img{
+  width: 70px;
+  object-fit: cover;
+  object-position: center;
+}
+table{
+  text-align: center;
+  font-size: 14px;
+}
+td a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+td a:hover{
+  color: mediumslateblue;
+}
+.home-page{
+  background-color: lightgray;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 20px; */
+}
+.shopping-time-div{
+  width: 100%;
+  margin-bottom: 40px;
+}
+.shopping-time-div img{
+  width: 100%;
+}
+.time-table{
+  margin-top: 20px;
+}
+.time-table th{
+  background-color: mediumslateblue;
+  color: white;
+  padding: 18px 20px;
+  font-size: 16px;
+}
+.time-table td{
+  padding: 15px 15px;
+  font-size: 16px;
+}
+.time-table, .time-table th, .time-table td{
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+.fashion-destination{
+  color: gray;
+}
+.fashion-destination h2{
+  font-size: 20px;
+}
+.fashion-destination p{
+  font-size: 11px;
+}
+.details{
+  padding: 30px;
+}
+.festival-sales{
+  color: gray;
+  margin: 20px 0px;
+}
+.festival-sales p{
+  font-size: 11px;
+}
+.event-list{
+  list-style: inside;
+  font-size: 11px;
+}
+.payment-option{
+  color: gray;
+}
+.payment-option p{
+  font-size: 11px;
+}
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+footer p{
+  margin: 0;
+}
