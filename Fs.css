@@ -27,7 +27,7 @@ table{
   padding: 15px 4px ;
 }
 .item-div img{
-  width: 70px;
+  width: 60px;
   object-fit: cover;
   object-position: center;
 }
